@@ -1,13 +1,17 @@
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
-  entries: [
-    'src/index',
-  ],
-  declaration: 'node16',
+  entries: ['src/index'],
+  declaration: true,
   clean: true,
+  failOnWarn: false,
   rollup: {
-    inlineDependencies: [
-    ],
+    emitCJS: true,
+    dts: {
+      compilerOptions: {
+        composite: false,
+        skipLibCheck: true,
+      },
+    },
   },
 })

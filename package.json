@@ -34,14 +34,25 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^4.4.0",
     "@antfu/ni": "^23.3.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@vitejs/plugin-react": "^4.3.4",
     "bumpp": "^10.0.3",
     "eslint": "^9.21.0",
     "js-yaml": "^4.1.0",
+    "jsdom": "^26.0.0",
     "lint-staged": "^15.4.3",
     "simple-git-hooks": "^2.11.1",
     "tinyexec": "^0.3.2",
