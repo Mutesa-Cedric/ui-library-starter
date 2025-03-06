@@ -3,6 +3,8 @@ import React from 'react'
 
 export function Button() {
   return (
-    <div>Button</div>
+    <div>
+      <p className="text-xl font-semibold">Button</p>
+    </div>
   )
 }
