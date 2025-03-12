@@ -9,7 +9,7 @@ A modern, feature-rich starter kit for building React component libraries with T
 - **Storybook 8**: Component documentation and development environment
 - **TailwindCSS**: Utility-first CSS framework
 - **Vitest**: Fast test runner compatible with Jest
-- **Unbuild**: Performant bundler built on top of rollup
+- **Tsup**: Performant bundler built on top of esbuild
 - **ESLint/TypeScript**: Code quality and consistency
 
 ## Getting Started
