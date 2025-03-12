@@ -1,17 +1,17 @@
 {
-  "name": "your-repo",
+  "name": "ui-library-starter",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@10.5.2",
   "description": "_description_",
-  "author": "Your Name <yourmail@gmail.com>",
+  "author": "Mutesa Cedric <mutesacedric@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/your-username/your-repo#readme",
+  "homepage": "https://github.com/Mutesa-Cedric/ui-library-starter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/your-repo.git"
+    "url": "git+https://github.com/Mutesa-Cedric/ui-library-starter.git"
   },
-  "bugs": "https://github.com/your-username/your-repo/issues",
+  "bugs": "https://github.com/Mutesa-Cedric/ui-library-starter/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
